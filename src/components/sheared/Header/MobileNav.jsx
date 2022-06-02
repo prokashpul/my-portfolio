@@ -15,15 +15,15 @@ const MobileNav = () => {
         <ul className="flex justify-around items-center gap-3 uppercase h-full w-full">
           <li
             title="Home"
-            className="text-3xl hover:border-t-4 p-3 border-green-400  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center"
+            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center"
           >
-            <Link to="/">
+            <a href="/#home">
               <FiHome />
-            </Link>
+            </a>
           </li>
           <li
             title="Features"
-            className="text-3xl hover:border-t-4 p-3 border-green-400  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
+            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
             <Link to="/">
               <FiLifeBuoy />
