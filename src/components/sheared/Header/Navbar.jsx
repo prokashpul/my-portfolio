@@ -47,7 +47,7 @@ const Navbar = () => {
         </ul>
 
         <div className="flex justify-end ">
-          <button className="bg-green-400 px-6 py-2 rounded-full hover:bg-green-700 hover:shadow-xl duration-500 text-white">
+          <button className="bg-green-400 px-6 py-2 rounded-full hover:bg-green-700 hover:shadow-xl duration-500 text-white uppercase font-semibold">
             Resume
           </button>
         </div>
