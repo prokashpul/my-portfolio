@@ -20,34 +20,34 @@ const Navbar = () => {
 
         <ul className="flex justify-center items-center gap-0 uppercase h-full ">
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/#home" className="text-xl font-semibold">
+            <Link to="/#home" className="text-xl ">
               Home
             </Link>
           </li>
           <li className=" hover:border-b-4 p-3 border-rose-500 cursor-pointer  hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl font-semibold">
+            <Link to="/" className="text-xl ">
               FEATURES
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl font-semibold">
+            <Link to="/" className="text-xl ">
               PORTFOLIO
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl font-semibold">
+            <Link to="/" className="text-xl ">
               Skills
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl font-semibold">
+            <Link to="/" className="text-xl ">
               Contract
             </Link>
           </li>
         </ul>
 
         <div className="flex justify-end ">
-          <button className="bg-rose-500 px-6 py-2 rounded-full hover:bg-green-700 hover:shadow-xl duration-500 text-white uppercase font-semibold">
+          <button className="bg-rose-500 px-6 py-2 rounded-full hover:bg-rose-700 hover:shadow-xl duration-500 text-white uppercase ">
             Resume
           </button>
         </div>

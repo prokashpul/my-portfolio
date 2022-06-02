@@ -25,8 +25,13 @@ const Banner = () => {
             is to be an outstanding full-stack web developer who can create
             beautiful UIs and manage back-end smoothly.
           </p>
+          <div className="flex justify-start mt-5 ">
+            <button className="hover:bg-rose-500 px-8 py-2 rounded-full border-2 border-rose-500 text-red-500  hover:shadow-xl duration-500 hover:text-white uppercase ">
+              Resume
+            </button>
+          </div>
         </div>
-        <div className="my-10">
+        <div className="my-5">
           <h4>FIND WITH ME</h4>
           <ul className="flex justify-start items-center gap-5 my-2 md:my-5">
             <li className="w-14 h-14 shadow-inner hover:shadow-2xl border-rose-500 border text-rose-500 hover:bg-rose-500 hover:text-white hover:border-white duration-300 rounded-xl flex items-center justify-center text-3xl">
@@ -47,7 +52,7 @@ const Banner = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center items-center order-first md:order-last">
+      <div className="flex justify-center md:justify-end items-center order-first md:order-last">
         <img
           src="https://i.ibb.co/BnQkY8S/pro.jpg"
           alt="prokash Pul"
