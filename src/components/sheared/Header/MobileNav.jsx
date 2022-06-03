@@ -10,7 +10,7 @@ import {
 
 const MobileNav = () => {
   return (
-    <header className=" w-full bottom-0 fixed block md:hidden">
+    <header className=" w-full bottom-0 fixed block md:hidden z-50 ">
       <nav className="flex px-10 rounded-t-3xl shadow-3xl bg-slate-200  justify-between items-center h-16 overflow-hidden">
         <ul className="flex justify-around items-center gap-3 uppercase h-full w-full text-rose-500">
           <li

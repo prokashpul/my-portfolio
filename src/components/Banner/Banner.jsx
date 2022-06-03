@@ -8,7 +8,9 @@ const Banner = () => {
     >
       <div className=" flex flex-col justify-center">
         <div>
-          <small>WELCOME TO MY WORLD</small>
+          <small className="tracking-widest text-rose-500">
+            WELCOME TO MY WORLD
+          </small>
           <div className="font-bold my-2 md:my-5">
             <h2 className="text-3xl md:text-5xl">
               Hi, I’m <span className="text-rose-500">Proksah Pul</span>
