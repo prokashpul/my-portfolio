@@ -25,7 +25,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className=" hover:border-b-4 p-3 border-rose-500 cursor-pointer  hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl ">
+            <Link to="/#features" className="text-xl ">
               FEATURES
             </Link>
           </li>

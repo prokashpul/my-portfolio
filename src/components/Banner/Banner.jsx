@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="grid grid-cols-1 md:grid-cols-2  gap-5 items-center"
+      className="grid grid-cols-1 md:grid-cols-2  gap-5 items-center mb-10 md:mb-20"
     >
       <div className=" flex flex-col justify-center">
         <div>
@@ -56,7 +56,7 @@ const Banner = () => {
         <img
           src="https://i.ibb.co/BnQkY8S/pro.jpg"
           alt="prokash Pul"
-          className="w-[100%] md:w-[420px] h-[400px] md:h-[500px] rounded-2xl border-8 border-slate-200"
+          className="w-[100%] md:w-[420px] h-[400px] md:h-[500px] rounded-2xl border-8 border-slate-200 drop-shadow-2xl hover:drop-shadow-none duration-300"
         />
       </div>
     </div>

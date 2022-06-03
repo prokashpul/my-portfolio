@@ -25,7 +25,7 @@ const MobileNav = () => {
             title="Features"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
-            <Link to="/">
+            <Link to="/#features">
               <FiLifeBuoy />
             </Link>
           </li>
