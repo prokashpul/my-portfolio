@@ -2,14 +2,14 @@ import React from "react";
 import { FiGithub, FiArrowUpRight } from "react-icons/fi";
 const Portfolio = () => {
   return (
-    <div>
+    <>
       <div className="flex justify-center items-center flex-col gap-5">
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </small>
         <h2 className="text-3xl md:text-5xl font-bold my-2 ">My Portfolio</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:my-10 my-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 mb-16 ">
         <div className="shadow-2xl p-5 overflow-hidden rounded-xl group duration-300 cursor-pointer">
           <div className="overflow-hidden rounded-xl ">
             <img
@@ -137,7 +137,7 @@ const Portfolio = () => {
           </h3>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

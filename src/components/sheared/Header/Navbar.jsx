@@ -47,9 +47,12 @@ const Navbar = () => {
         </ul>
 
         <div className="flex justify-end ">
-          <button className="bg-rose-500 px-6 py-2 rounded-full hover:bg-rose-700 hover:shadow-xl duration-500 text-white uppercase ">
+          <a
+            className="bg-rose-500 px-6 py-2 rounded-full hover:bg-rose-700 hover:shadow-xl duration-500 text-white uppercase "
+            href="https://drive.google.com/uc?id=1tuzvDL5LNSLdypxRVWcOUvfPSs_ihk_R&export=download"
+          >
             Resume
-          </button>
+          </a>
         </div>
       </nav>
     </header>

@@ -28,9 +28,12 @@ const Banner = () => {
             beautiful UIs and manage back-end smoothly.
           </p>
           <div className="flex justify-start mt-5 ">
-            <button className="hover:bg-rose-500 px-8 py-2 rounded-full border-2 border-rose-500 text-red-500  hover:shadow-xl duration-500 hover:text-white uppercase ">
+            <a
+              className="hover:bg-rose-500 px-8 py-2 rounded-full border-2 border-rose-500 text-red-500  hover:shadow-xl duration-500 hover:text-white uppercase "
+              href="https://drive.google.com/uc?id=1tuzvDL5LNSLdypxRVWcOUvfPSs_ihk_R&export=download"
+            >
               Resume
-            </button>
+            </a>
           </div>
         </div>
         <div className="my-5">
@@ -56,9 +59,9 @@ const Banner = () => {
       </div>
       <div className="flex justify-center md:justify-end items-center order-first md:order-last">
         <img
-          src="https://i.ibb.co/BnQkY8S/pro.jpg"
+          src="https://i.ibb.co/F5s8Kmf/pro2.png"
           alt="prokash Pul"
-          className="w-[100%] md:w-[420px] h-[400px] md:h-[500px] rounded-2xl border-8 border-slate-200 drop-shadow-2xl hover:drop-shadow-none duration-300"
+          className="w-[100%] md:w-[420px] h-[400px] md:h-[500px] rounded-2xl border-8 border-rose-100 hover:border-rose-500 drop-shadow-2xl hover:drop-shadow-none duration-300"
         />
       </div>
     </div>
