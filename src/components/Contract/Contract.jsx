@@ -6,14 +6,32 @@ import {
   FiLinkedin,
   FiInstagram,
 } from "react-icons/fi";
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
+
 const Contract = () => {
   const {
     register,
     formState: { errors },
     handleSubmit,
-  } = useForm();
+  } = useForm({ defaultValues: { yes_i_understand: false } });
+  const YOUR_SERVICE_ID = "service_xlvqm8y";
+  const YOUR_TEMPLATE_ID = "template_z69tajh";
+  const YOUR_PUBLIC_KEY = "1J5K-uIYzMdeqtSOq";
   // Submit your data into Redux store
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    emailjs
+      .sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, data, YOUR_PUBLIC_KEY)
+      .then(
+        (result) => {
+          Swal.fire("Good job!", "You clicked the button!", "success");
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <div

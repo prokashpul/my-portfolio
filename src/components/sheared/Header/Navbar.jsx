@@ -2,9 +2,14 @@ import React from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  window.addEventListener("scroll", () => {
+    document
+      .querySelector("nav")
+      .classList.toggle("shadow-xl", window.scrollY > 100);
+  });
   return (
     <header className=" w-full top-0 sticky hidden md:block z-50 bg-white">
-      <nav className="flex px-10 rounded-b-3xl shadow-xl  justify-between items-center h-20">
+      <nav className="flex px-10 rounded-b-3xl   justify-between items-center h-20 style={{ transition: '1s ease',backgroundColor: navBackground ? 'black' : 'transparent'}}">
         <div className="font-bold text-2xl inline-flex items-center gap-2">
           <img
             src="https://simgbb.com/avatar/cK0cy33dYQGL.jpg"
