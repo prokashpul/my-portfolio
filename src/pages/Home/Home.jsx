@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
+import Contract from "../../components/Contract/Contract";
 import Features from "../../components/Features/Features";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Skills from "../../components/Skills/Skills";
@@ -14,6 +15,8 @@ const Home = () => {
       <Portfolio></Portfolio>
       <hr />
       <Skills></Skills>
+      <hr />
+      <Contract></Contract>
     </div>
   );
 };

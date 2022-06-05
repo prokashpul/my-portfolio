@@ -49,7 +49,7 @@ const Portfolio = () => {
             <span className="duration-500">
               The services provide for design
             </span>
-            <FiArrowUpRight className="group-hover:inline-block font-bold duration-500 hidden" />
+            <FiArrowUpRight className="group-hover:inline-block font-bold duration-500 text-transparent" />
           </h3>
         </div>
         <div className="shadow-2xl p-5 overflow-hidden rounded-xl group duration-300 cursor-pointer">
