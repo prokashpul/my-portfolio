@@ -16,7 +16,10 @@ const Contract = () => {
   const onSubmit = (data) => console.log(data);
   return (
     <>
-      <div className="flex justify-center items-center flex-col gap-5">
+      <div
+        className="flex justify-center items-center flex-col gap-5"
+        id="contract"
+      >
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           CONTACT
         </small>

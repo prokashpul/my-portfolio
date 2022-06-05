@@ -3,8 +3,8 @@ import { FiLinkedin, FiInstagram, FiFacebook } from "react-icons/fi";
 const Banner = () => {
   return (
     <div
-      id="home"
       className="grid grid-cols-1 md:grid-cols-2  gap-5 items-center mb-10 md:mb-20"
+      id="home"
     >
       <div className=" flex flex-col justify-center">
         <div>

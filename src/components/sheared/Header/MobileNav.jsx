@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import {
   FiHome,
   FiLifeBuoy,
@@ -17,15 +17,27 @@ const MobileNav = () => {
             title="Home"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center"
           >
-            <a href="/#home">
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={700}
+            >
               <FiHome />
-            </a>
+            </Link>
           </li>
           <li
             title="Features"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
-            <Link to="/#features">
+            <Link
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={700}
+            >
               <FiLifeBuoy />
             </Link>
           </li>
@@ -33,7 +45,13 @@ const MobileNav = () => {
             title="Portfolio"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
-            <Link to="/">
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={700}
+            >
               <FiLayers />
             </Link>
           </li>
@@ -41,7 +59,13 @@ const MobileNav = () => {
             title="Skills"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
-            <Link to="/">
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={700}
+            >
               <FiSlack />
             </Link>
           </li>
@@ -49,7 +73,13 @@ const MobileNav = () => {
             title="Contract"
             className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
           >
-            <Link to="/">
+            <Link
+              to="contract"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={700}
+            >
               <FiHeadphones />
             </Link>
           </li>

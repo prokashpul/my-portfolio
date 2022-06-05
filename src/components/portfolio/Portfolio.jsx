@@ -3,7 +3,10 @@ import { FiGithub, FiArrowUpRight } from "react-icons/fi";
 const Portfolio = () => {
   return (
     <>
-      <div className="flex justify-center items-center flex-col gap-5">
+      <div
+        className="flex justify-center items-center flex-col gap-5"
+        id="portfolio"
+      >
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </small>

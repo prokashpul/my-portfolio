@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -20,27 +20,63 @@ const Navbar = () => {
 
         <ul className="flex justify-center items-center gap-0 uppercase h-full ">
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/#home" className="text-xl ">
+            <Link
+              to="home"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              className="text-xl "
+            >
               Home
             </Link>
           </li>
           <li className=" hover:border-b-4 p-3 border-rose-500 cursor-pointer  hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/#features" className="text-xl ">
+            <Link
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="text-xl "
+            >
               FEATURES
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl ">
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              className="text-xl "
+            >
               PORTFOLIO
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl ">
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              className="text-xl "
+            >
               Skills
             </Link>
           </li>
           <li className="hover:border-b-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center">
-            <Link to="/" className="text-xl ">
+            <Link
+              to="contract"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+              className="text-xl "
+            >
               Contract
             </Link>
           </li>

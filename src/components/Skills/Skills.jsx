@@ -4,7 +4,10 @@ import ProgressBar from "./ProgressBar";
 const Skills = () => {
   return (
     <div>
-      <div className="flex justify-center items-center flex-col gap-5">
+      <div
+        className="flex justify-center items-center flex-col gap-5"
+        id="skills"
+      >
         <small className="text-rose-500 md:mt-10 mt-10 tracking-widest">
           Features
         </small>
