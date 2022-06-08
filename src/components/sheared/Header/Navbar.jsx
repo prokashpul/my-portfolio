@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header className=" w-full top-0 sticky hidden md:block z-50 bg-white">
-      <nav className="flex px-10 rounded-b-3xl   justify-between items-center  style={{ transition: '1s ease',backgroundColor: navBackground ? 'black' : 'transparent'}}">
+      <nav className="flex px-10 rounded-b-3xl  h-18 justify-between items-center  style={{ transition: '1s ease',backgroundColor: navBackground ? 'black' : 'transparent'}}">
         <div className="font-bold text-2xl inline-flex items-center gap-2">
           <img
             src="https://simgbb.com/avatar/cK0cy33dYQGL.jpg"

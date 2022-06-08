@@ -1,12 +1,11 @@
 import React from "react";
 import {
-  FiAlignJustify,
-  FiBookOpen,
-  FiTv,
-  FiTwitch,
-  FiWifi,
-  FiSlack,
-} from "react-icons/fi";
+  VscTerminalCmd,
+  VscEditorLayout,
+  VscGlobe,
+  VscMail,
+} from "react-icons/vsc";
+import { FiMonitor, FiSlack } from "react-icons/fi";
 const Features = () => {
   return (
     <div className="my-10 md:my-20" id="features">
@@ -17,9 +16,9 @@ const Features = () => {
       <div className="grid md:grid-cols-3 gap-5 md:gap-10 md:my-10 ">
         <div className="p-10  shadow-2xl group  rounded-xl hover:text-white hover:bg-rose-500  duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiAlignJustify />
+            <FiMonitor />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">Web development</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.
@@ -27,9 +26,9 @@ const Features = () => {
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiBookOpen />
+            <VscTerminalCmd />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">Apps Development</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.
@@ -37,9 +36,9 @@ const Features = () => {
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiTv />
+            <VscEditorLayout />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">Responsive Design</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.
@@ -47,9 +46,9 @@ const Features = () => {
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiTwitch />
+            <VscGlobe />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">SEO Optimization</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.
@@ -57,9 +56,9 @@ const Features = () => {
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiWifi />
+            <VscMail />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">Email Template Design</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.
@@ -69,7 +68,7 @@ const Features = () => {
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
             <FiSlack />
           </div>
-          <h3 className="text-2xl ">App Development</h3>
+          <h3 className="text-2xl ">Live Support</h3>
           <p>
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence.

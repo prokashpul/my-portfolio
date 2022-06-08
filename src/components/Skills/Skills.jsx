@@ -37,14 +37,14 @@ const Skills = () => {
             Features
           </small>
           <div className="text-2xl md:text-3xl font-bold my-2 ">
-            Design Skill
+            Other Skill
           </div>
           <div className="m-5 ml-0">
-            <ProgressBar name="HTML5" done="95" />
-            <ProgressBar name="CSS3" done="90" />
-            <ProgressBar name="JavaScript" done="70" />
-            <ProgressBar name="React" done="80" />
-            <ProgressBar name="Node.Js" done="60" />
+            <ProgressBar name="Firebase" done="60" />
+            <ProgressBar name="MongoDb" done="55" />
+            <ProgressBar name="React Native" done="50" />
+            <ProgressBar name="Figma" done="55" />
+            <ProgressBar name="Next.Js" done="40" />
           </div>
         </div>
       </div>
