@@ -83,17 +83,17 @@ const Contract = () => {
             <ul className="flex justify-start items-center gap-5 my-2 md:my-5">
               <li className="w-14 h-14 shadow-inner hover:shadow-2xl border-rose-500 border text-rose-500 hover:bg-rose-500 hover:text-white hover:border-white duration-300 rounded-xl flex items-center justify-center text-3xl[">
                 <a href="https://www.linkedin.com/in/prokash-pul/">
-                  <FiLinkedin />
+                  <FiLinkedin className="font-bold text-3xl" />
                 </a>
               </li>
               <li className="w-14 h-14 shadow-inner hover:shadow-2xl border-rose-500 border text-rose-500 hover:bg-rose-500 hover:text-white hover:border-white duration-300 rounded-xl flex items-center justify-center text-3xl[">
                 <a href="https://www.facebook.com/prokash.pul">
-                  <FiFacebook />
+                  <FiFacebook className="font-bold text-3xl" />
                 </a>
               </li>
               <li className="w-14 h-14 shadow-inner hover:shadow-2xl border-rose-500 border text-rose-500 hover:bg-rose-500 hover:text-white hover:border-white duration-300 rounded-xl flex items-center justify-center text-3xl[">
                 <a href="https://www.instagram.com/prokash_pul/">
-                  <FiInstagram />
+                  <FiInstagram className="font-bold text-3xl" />
                 </a>
               </li>
             </ul>
