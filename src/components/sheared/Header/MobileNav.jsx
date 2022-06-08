@@ -8,81 +8,34 @@ import {
   FiSlack,
 } from "react-icons/fi";
 
+const navBar = [
+  { link: "home", name: "Home", icon: FiHome, id: 1 },
+  { link: "features", name: "features", icon: FiLifeBuoy, id: 2 },
+  { link: "portfolio", name: "portfolio", icon: FiLayers, id: 3 },
+  { link: "skills", name: "skills", icon: FiSlack, id: 4 },
+  { link: "contract", name: "contract", icon: FiHeadphones, id: 5 },
+];
 const MobileNav = () => {
   return (
     <header className=" w-full bottom-0 fixed block md:hidden z-50 ">
       <nav className="flex px-10 rounded-t-3xl shadow-3xl bg-slate-200  justify-between items-center h-16 overflow-hidden">
         <ul className="flex justify-around items-center gap-3 uppercase h-full w-full text-rose-500">
-          <li
-            title="Home"
-            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center"
-          >
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={700}
-            >
-              <FiHome />
-            </Link>
-          </li>
-          <li
-            title="Features"
-            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
-          >
-            <Link
-              to="features"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={700}
-            >
-              <FiLifeBuoy />
-            </Link>
-          </li>
-          <li
-            title="Portfolio"
-            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
-          >
-            <Link
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={700}
-            >
-              <FiLayers />
-            </Link>
-          </li>
-          <li
-            title="Skills"
-            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
-          >
-            <Link
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={700}
-            >
-              <FiSlack />
-            </Link>
-          </li>
-          <li
-            title="Contract"
-            className="text-3xl hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 duration-500 h-full flex items-center "
-          >
-            <Link
-              to="contract"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={700}
-            >
-              <FiHeadphones />
-            </Link>
-          </li>
+          {navBar.map((nav) => (
+            <li key={nav.id} className="duration-500 h-full flex items-center">
+              <Link
+                activeClass="border-t-4 border-rose-500 duration-1000 bg-gray-200"
+                className="hover:border-t-4 p-3 border-rose-500  cursor-pointer hover:bg-gray-200 text-4xl"
+                title={nav.name}
+                to={nav.link}
+                spy={true}
+                smooth={true}
+                offset={-2}
+                duration={1000}
+              >
+                {<nav.icon />}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
