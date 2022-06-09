@@ -16,9 +16,9 @@ const portfolios = [
   },
   {
     title: "Pro Electric Tools Manufacturer",
-    url: "https://i.ibb.co/Z1YbKFC/Perspective-Web-Design-Mockup.jpg",
-    live: "https://electric-tools-manufacturer.web.app/",
-    github: "https://github.com/prokashpul/manufacturer-website-client-side",
+    url: "https://i.ibb.co/cgmRR3T/Perspective-Web-Design-Mockup.jpg",
+    live: "https://proweb-conv-assiment3.netlify.app/",
+    github: "https://github.com/prokashpul/convension-center-project",
   },
   {
     title: "Pro Electric Tools Manufacturer",
@@ -36,7 +36,7 @@ const portfolios = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <div id="portfolio">
       <div className="flex justify-center items-center flex-col gap-5">
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           My Portfolio
@@ -47,6 +47,7 @@ const Portfolio = () => {
         {portfolios.map((portfolio, index) => (
           <a
             href={portfolio.live}
+            key={index}
             className="shadow-2xl p-5 overflow-hidden rounded-xl group duration-300 cursor-pointer"
           >
             <div className="overflow-hidden rounded-xl ">
@@ -69,7 +70,7 @@ const Portfolio = () => {
           </a>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
