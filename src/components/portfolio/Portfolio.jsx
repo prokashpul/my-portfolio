@@ -8,10 +8,11 @@ const portfolios = [
     github: "https://github.com/prokashpul/manufacturer-website-client-side",
   },
   {
-    title: "Pro Electric Tools Manufacturer",
-    url: "https://i.ibb.co/Z1YbKFC/Perspective-Web-Design-Mockup.jpg",
-    live: "https://electric-tools-manufacturer.web.app/",
-    github: "https://github.com/prokashpul/manufacturer-website-client-side",
+    title: "WEB CAR MANAGER INVENTORY",
+    url: "https://i.ibb.co/Jt5m0FN/Perspective-Web-Design-Mockup.jpg",
+    live: "https://webcarmanager.web.app/",
+    github:
+      "https://github.com/prokashpul/car-warehouse-management-client-side",
   },
   {
     title: "Pro Electric Tools Manufacturer",
@@ -35,11 +36,8 @@ const portfolios = [
 
 const Portfolio = () => {
   return (
-    <>
-      <div
-        className="flex justify-center items-center flex-col gap-5"
-        id="portfolio"
-      >
+    <section id="portfolio">
+      <div className="flex justify-center items-center flex-col gap-5">
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           My Portfolio
         </small>
@@ -71,7 +69,7 @@ const Portfolio = () => {
           </a>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

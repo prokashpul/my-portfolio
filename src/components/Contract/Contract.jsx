@@ -33,11 +33,8 @@ const Contract = () => {
       );
   };
   return (
-    <>
-      <div
-        className="flex justify-center items-center flex-col gap-5"
-        id="contract"
-      >
+    <section section id="contract">
+      <div className="flex justify-center items-center flex-col gap-5">
         <small className="text-rose-500 md:mt-20 mt-10 tracking-widest">
           CONTACT
         </small>
@@ -170,7 +167,7 @@ const Contract = () => {
           </form>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

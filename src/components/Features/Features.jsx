@@ -8,7 +8,7 @@ import {
 import { FiMonitor, FiSlack } from "react-icons/fi";
 const Features = () => {
   return (
-    <div className="my-10 md:my-20" id="features">
+    <section className="my-10 md:my-20" id="features">
       <small className="text-rose-500 uppercase tracking-widest">
         Features
       </small>
@@ -75,7 +75,7 @@ const Features = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header className=" w-full top-0 sticky hidden md:block z-50 bg-white">
-      <nav className="flex px-10 rounded-b-3xl  h-18 justify-between items-center  style={{ transition: '1s ease',backgroundColor: navBackground ? 'black' : 'transparent'}}">
+      <nav className="flex px-10 rounded-b-3xl  h-[68px] justify-between items-center  style={{ transition: '1s ease',backgroundColor: navBackground ? 'black' : 'transparent'}}">
         <div className="font-bold text-2xl inline-flex items-center gap-2">
           <img
             src="https://simgbb.com/avatar/cK0cy33dYQGL.jpg"
@@ -26,13 +26,21 @@ const Navbar = () => {
             className="rounded-full border-2  border-rose-500"
           />
           <h2 className="text-rose-500 uppercase text-3xl">
-            Pro<span className="text-black">kash</span>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+            >
+              Pro<span className="text-black">kash</span>
+            </Link>
           </h2>
         </div>
 
         <ul className="flex justify-center items-center gap-0 uppercase h-full ">
           <Link
-            activeClass="border-b-4 border-rose-500 duration-1000 bg-gray-200"
+            activeClass="border-b-4 border-rose-500 duration-300 bg-gray-200"
             className="hover:border-b-4 p-5 border-rose-500  cursor-pointer hover:bg-gray-200"
             to="home"
             spy={true}
