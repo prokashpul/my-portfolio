@@ -1,5 +1,6 @@
 import React from "react";
 import { FiLinkedin, FiInstagram, FiFacebook } from "react-icons/fi";
+import Typical from "react-typical";
 
 const Banner = () => {
   return (
@@ -17,8 +18,19 @@ const Banner = () => {
               Hi, I’m <span className="text-rose-500">Proksah Pul</span>
             </h2>
 
-            <h3 className="text-xl md:text-3xl mt-2 md:mt-5">
-              Full Stack Web Developer.
+            <h3 className="text-xl md:text-3xl mt-2 md:mt-5 uppercase">
+              <Typical
+                steps={[
+                  "MERN Stack Developer",
+                  4000,
+                  "Full Stack Web Developer",
+                  4000,
+                  "Front-End Developer",
+                  4000,
+                ]}
+                loop={Infinity}
+                wrapper="span"
+              />
             </h3>
           </div>
           <p>
