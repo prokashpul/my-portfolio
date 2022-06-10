@@ -40,15 +40,15 @@ const Navbar = () => {
 
         <ul className="flex justify-center items-center gap-0 uppercase h-full ">
           <Link
-            activeClass="border-b-4 border-rose-500 duration-300 bg-gray-200"
-            className="hover:border-b-4 p-5 border-rose-500  cursor-pointer hover:bg-gray-200"
+            activeClass="border-b-4 border-rose-500 duration-300 "
+            className="hover:border-b-4 p-5 border-rose-500  cursor-pointer "
             to="home"
             spy={true}
             smooth={true}
             offset={-150}
             duration={500}
           >
-            HOME
+            About
           </Link>
           {navBar.map((nav) => (
             <li
@@ -57,7 +57,7 @@ const Navbar = () => {
             >
               <Link
                 activeClass="border-b-4 border-rose-500 duration-1000 bg-gray-200"
-                className="hover:border-b-4 p-5 border-rose-500  cursor-pointer hover:bg-gray-200"
+                className="hover:border-b-4 p-5 border-rose-500  cursor-pointer "
                 to={nav.link}
                 spy={true}
                 smooth={true}

@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  VscTerminalCmd,
-  VscEditorLayout,
-  VscGlobe,
-  VscMail,
-} from "react-icons/vsc";
-import { FiMonitor, FiSlack } from "react-icons/fi";
+import { VscEditorLayout, VscMail } from "react-icons/vsc";
+import { IoIosAppstore } from "react-icons/io";
+import { FiMonitor, FiHeadphones, FiPieChart } from "react-icons/fi";
 const Features = () => {
   return (
     <div className="my-10 md:my-20 relative" id="features">
@@ -20,18 +16,18 @@ const Features = () => {
           </div>
           <h3 className="text-2xl ">Web development</h3>
           <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
+            Clean, modern designs - optimized for performance, search engines,
+            and converting users to customers.
           </p>
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  md:hover:scale-110 hover:scale-105 duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <VscTerminalCmd />
+            <IoIosAppstore />
           </div>
           <h3 className="text-2xl ">Apps Development</h3>
           <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
+            Clean, modern App Create using react native - optimized for
+            performance, ios and Android, and converting users to customers.
           </p>
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  md:hover:scale-110 hover:scale-105 duration-300">
@@ -40,18 +36,18 @@ const Features = () => {
           </div>
           <h3 className="text-2xl ">Responsive Design</h3>
           <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
+            A responsive design makes your website accessible to all users,
+            regardless of their device.
           </p>
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  md:hover:scale-110 hover:scale-105 duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <VscGlobe />
+            <FiPieChart />
           </div>
-          <h3 className="text-2xl ">SEO Optimization</h3>
+          <h3 className="text-2xl ">Web Analytics</h3>
           <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
+            Get insights into who is browsing your site so that you can make
+            smarter business decisions.
           </p>
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  md:hover:scale-110 hover:scale-105 duration-300">
@@ -60,19 +56,16 @@ const Features = () => {
           </div>
           <h3 className="text-2xl ">Email Template Design</h3>
           <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
+            Dynamic, modern Email Template Design - optimized for performance,
+            and converting users to customers.
           </p>
         </div>
         <div className="p-10 shadow-2xl  group  rounded-xl hover:text-white hover:bg-rose-500  md:hover:scale-110 hover:scale-105 duration-300">
           <div className="text-4xl  w-14 h-14 p-2 group-hover:text-white  text-rose-500  rounded-full ">
-            <FiSlack />
+            <FiHeadphones />
           </div>
           <h3 className="text-2xl ">Live Support</h3>
-          <p>
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence.
-          </p>
+          <p>I always ready provide live support to my clients .</p>
         </div>
       </div>
       <svg
