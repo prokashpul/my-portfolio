@@ -61,7 +61,7 @@ const Navbar = () => {
                 to={nav.link}
                 spy={true}
                 smooth={true}
-                offset={-75}
+                offset={-68}
                 duration={500}
               >
                 {nav.name}
