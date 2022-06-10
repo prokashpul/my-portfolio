@@ -4,7 +4,7 @@ const navBar = [
   { link: "features", name: "features", id: 2 },
   { link: "portfolio", name: "portfolio", id: 3 },
   { link: "skills", name: "skills", id: 4 },
-  { link: "contract", name: "contract", id: 5 },
+  { link: "contract", name: "Contact", id: 5 },
 ];
 console.log(window.location.pathname);
 const Navbar = () => {

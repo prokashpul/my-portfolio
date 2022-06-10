@@ -64,8 +64,8 @@ const handelClick = (id) => {
     <br>
     <ul>
     <li>1. ${item.about1}</li>
-    <li>1. ${item.about2}</li>
-    <li>1. ${item.about3}</li>
+    <li>2. ${item.about2}</li>
+    <li>3. ${item.about3}</li>
     <li><strong> The technology used:</strong> ${item.feature}</li>
     </ul>`,
     showCloseButton: true,
