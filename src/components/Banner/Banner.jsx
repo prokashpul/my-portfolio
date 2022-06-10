@@ -60,7 +60,7 @@ const Banner = () => {
       </div>
       <div className="flex justify-center md:justify-end items-center order-first md:order-last">
         <img
-          src="https://i.ibb.co/F5s8Kmf/pro2.png"
+          src="https://i.ibb.co/4ZsDb9X/prokash-removebg-preview.png"
           alt="prokash Pul"
           className="w-[100%] md:w-[420px] h-[400px] md:h-[500px] rounded-2xl border-8 border-rose-100 hover:border-rose-500 drop-shadow-2xl hover:drop-shadow-none duration-300"
         />

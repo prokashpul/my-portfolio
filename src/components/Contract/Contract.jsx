@@ -13,19 +13,26 @@ const Contract = () => {
   const {
     register,
     formState: { errors },
-    handleSubmit,
+    reset,
   } = useForm({ defaultValues: { yes_i_understand: false } });
-  const YOUR_SERVICE_ID = "service_xlvqm8y";
-  const YOUR_TEMPLATE_ID = "template_z69tajh";
-  const YOUR_PUBLIC_KEY = "1J5K-uIYzMdeqtSOq";
   // Submit your data into Redux store
-  const onSubmit = (data) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
     emailjs
-      .sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, data, YOUR_PUBLIC_KEY)
+      .sendForm(
+        "service_mj8kyrq",
+        "template_f5mnbtc",
+        e.target,
+        "1J5K-uIYzMdeqtSOq"
+      )
       .then(
         (result) => {
-          Swal.fire("Good job!", "You clicked the button!", "success");
-          console.log(result.text);
+          Swal.fire(
+            "Email Send Successfully",
+            "You clicked the ok button!",
+            "success"
+          );
+          reset();
         },
         (error) => {
           console.log(error.text);
@@ -98,7 +105,7 @@ const Contract = () => {
         </div>
         <div className="md:shadow-2xl shadow-md p-5 md:p-10 rounded-2xl">
           <h2 className="text-center font-bold text-2xl my-5">Contact </h2>
-          <form className="mt-10" onSubmit={handleSubmit(onSubmit)}>
+          <form className="mt-10" onSubmit={sendEmail}>
             <div className="md:flex  gap-5">
               <div className="mb-5 w-full">
                 <input
