@@ -4,7 +4,7 @@ import { IoIosAppstore } from "react-icons/io";
 import { FiMonitor, FiHeadphones, FiPieChart } from "react-icons/fi";
 const Features = () => {
   return (
-    <div className="my-10 md:my-20 relative" id="features">
+    <div className="py-10 md:py-20 relative" id="features">
       <small className="text-rose-500 uppercase tracking-widest">
         Features
       </small>
